@@ -8,10 +8,10 @@ class Landing extends React.Component {
         return (
             <Grid container>
                 <Grid item xs>
-                    <Paper>
-                        <Typography >Welcome To DMS</Typography>
-                        <Button component={Link} to="/home"> Enter</Button>
-                    </Paper>
+                    <div style={{ textAlign: "center", margin: '10rem' }}>
+                        <Typography variant="title" >Welcome To DMS</Typography>
+                        <Button component={Link} color="primary" to="/home"> Enter</Button>
+                    </div>
                 </Grid>
             </Grid>
         )

@@ -107,6 +107,7 @@ class Home extends React.Component {
                         grayRow
                         pagination
                     />
+
                 </Paper>
                 {/* Adding Patient Dialog */}
                 <CustomDialog
