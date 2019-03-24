@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Paper, Button } from '@material-ui/core';
+import { Grid, Typography, Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 class Landing extends React.Component {
 
@@ -9,8 +9,8 @@ class Landing extends React.Component {
             <Grid container>
                 <Grid item xs>
                     <div style={{ textAlign: "center", margin: '10rem' }}>
-                        <Typography variant="title" >Welcome To DMS</Typography>
-                        <Button component={Link} color="primary" to="/home"> Enter</Button>
+                        <Typography variant="title" >Welcome</Typography>
+                        <Button component={Link} color="primary" to="/home"> Click To Begin</Button>
                     </div>
                 </Grid>
             </Grid>
