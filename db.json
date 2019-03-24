@@ -23,6 +23,14 @@
       "gender": "male",
       "phone": "10645646",
       "address": "House abc, St 124, Town 134"
+    },
+    {
+      "name": "New Patient",
+      "age": "25",
+      "gender": "male",
+      "phone": "1234567",
+      "address": "Almasoom Complex",
+      "id": 5
     }
   ]
 }

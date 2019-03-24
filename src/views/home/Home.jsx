@@ -9,6 +9,7 @@ import { withRouter } from 'react-router-dom';
 import TableCustom from '../../components/TableCustom';
 import AddPatientForm from '../patients/AddPatientForm';
 import ConfirmationDialog from '../../components/ConfirmationDialog';
+import AutoComplete from '../../components/AutoComplete';
 class Home extends React.Component {
 
     constructor(props) {
@@ -96,6 +97,7 @@ class Home extends React.Component {
                     <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '1rem', padding: 5 }}>
                         <Button onClick={this.viewAddPatientModal} variant="contained" color="primary">Add Patients </Button>
                     </div>
+                    <AutoComplete patientsData={this.props.patients} />
                     <TableCustom
                         tableHead={["Name", "Age", "Gender", "Phone", "Address", "Actions"]}
                         tableData={
