@@ -1,0 +1,28 @@
+{
+  "patients": [
+    {
+      "id": 2,
+      "name": "Saint John",
+      "age": "40",
+      "gender": "male",
+      "phone": 123456789,
+      "address": "House abc, St 124, Town 134"
+    },
+    {
+      "id": 3,
+      "name": "Sara Phill",
+      "age": "20",
+      "gender": "female",
+      "phone": 123456789,
+      "address": "House abc, St 124, Town 134"
+    },
+    {
+      "id": 4,
+      "name": "Graem John",
+      "age": "55",
+      "gender": "male",
+      "phone": "10645646",
+      "address": "House abc, St 124, Town 134"
+    }
+  ]
+}
